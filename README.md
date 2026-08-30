@@ -33,4 +33,12 @@ except Exceptionn as e:
 
   print("Error loading data: (e)")
   
-  print("Please ensure the URL is correct and the file format is compatible with 'pd.read_csv',")
+  print("Please ensure the URL is correct and the file format is compatible with 'pd.read_csv',")dataset 
+
+
+# (4) Tell Germini: 
+give me basic EDA code to analyse this dataset and get better understanding of the data structure, data issue and suggestions to improve data quality for analysable dataset. Provide the above in block-by-block python code using pandas
+
+Click on accept and run if you are agreeable with the code, click on "Accept and Run"
+
+#(5) 
