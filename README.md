@@ -29,7 +29,7 @@ try:
   
   display(df.head())
   
-except Exceptionn as e:
+except Exception as e:
 
   print("Error loading data: (e)")
   
