@@ -15,3 +15,22 @@ https://raw.githubusercontent.com/LeowYongSheng/ADALL_github/refs/heads/main/lap
 -> to save a copy of this the finish or partial finish code onto Github, you will need to (1) go to the setting icon on the top right hand corner of your colab file, under "Github" , click on " Authorize with GitHub", when prompt, click on "Authorize with Github", back to colab, click on save; (2) back to the mainpage of ur colab project, click on  "file"-> "save a copy in Github", ensure you save in the correct respository and rename your colab file then press okay
 
 -> after saving your file to github, you can open your file at git hub and click on open colab or that uyou can choose to use colab to open saved github files
+
+# (3) Import files
+import pandas as pd
+
+github_raw_url='https://raw.githubusercontent.com/LeowYongSheng/ADALL_github/refs/heads/main/laptop_prices_2024_sgd_TL.csv'
+
+try:
+
+  df=pd.read_csv(github_raw_url)
+  
+  print("successfully loaded data from Github")
+  
+  display(df.head())
+  
+except Exceptionn as e:
+
+  print("Error loading data: (e)")
+  
+  print("Please ensure the URL is correct and the file format is compatible with 'pd.read_csv',")
