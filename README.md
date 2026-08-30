@@ -33,7 +33,7 @@ except Exception as e:
 
   print("Error loading data: (e)")
   
-  print("Please ensure the URL is correct and the file format is compatible with 'pd.read_csv',")dataset 
+  print("Please ensure the URL is correct and the file format is compatible with 'pd.read_csv',")
 
 
 # (4) Tell Germini: 
@@ -41,4 +41,3 @@ give me basic EDA code to analyse this dataset and get better understanding of t
 
 Click on accept and run if you are agreeable with the code, click on "Accept and Run"
 
-#(5) 
