@@ -6,4 +6,5 @@ https://raw.githubusercontent.com/LeowYongSheng/ADALL_github/refs/heads/main/lap
 
 
 # (2) open colab, sign in
+-> colab.research.google.com
 -> choose "New notebook"
